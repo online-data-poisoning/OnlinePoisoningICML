@@ -29,3 +29,6 @@ The notebook "plotting-full.ipynb" generates the plot for fully-online experimen
 
 The semi-online and fully-online experiment scripts will output results to "results" folder.
 The plotting scripts then loads the results from the folder for plotting.
+
+## Running Time
+A single run of each jupyter notebook takes up to 12 hours on a 7th Gen i7, 32GB RAM desktop.
