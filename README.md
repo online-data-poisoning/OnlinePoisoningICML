@@ -14,14 +14,18 @@ Please keep the folder name as it is, as the plotting functions use the same nam
 
 ## Descriptions of Individual Notebooks
 
-### Semi-online attacks
+### Semi-online
 
+The notebook "imdb.ipynb", "fmnist.ipynb", "mnist.ipynb", "breast-cancer.ipynb" contain scripts for semi-online experiment.
 
+### Fully-online
 
-The main folder contains five jupyter notebooks. The "plotting.ipynb" notebook contains the scripts for plotting the figures shown in the paper from result files. The other four notebooks contain scripts that run experiments for different data set. The name of the notebook suggests the data set, i.e. "IMDB.ipynb" for the IMDB sentiment analysis. In order to reproduce the experiment result, one can simply run through all cells in each notebook.
+The notebook "imdb-fully-online.ipynb", "fmnist-fully-online.ipynb", "mnist-fully-online.ipynb", "breastcancer-fully-online.ipynb" contain scripts for fully-online experiment.
 
-The attacker.py and utils.py contain attacker class and other helper functions used in the scripts.
+### Plotting
 
-The data folder contains preprocessed data for the experiments. 
+The notebook "plotting.ipynb" generates the plot for semi-online experiment
+The notebook "plotting-full.ipynb" generates the plot for fully-online experiment.
 
-
+The semi-online and fully-online experiment scripts will output results to "results" folder.
+The plotting scripts then loads the results from the folder for plotting.
